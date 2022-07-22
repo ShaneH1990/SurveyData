@@ -19,7 +19,7 @@ info = responses.get_all_values()
 
 print(info)
 
-data = input("\n Please enter which Gender results you would like: ")
+data = input("\n Please enter which Gender results you would like:\n")
 if(data == "male"):
     print("results for males viewers:")
 elif(data == "female"):
@@ -28,7 +28,7 @@ elif(data == "female"):
 else:
     print("not a valid answer!")
 
-group = input("\n Please enter which Age Group results you would like: ")
+group = input("\n Please enter which Age Group results you would like:\n")
 if(group == "15-25"):
     print("These are the following results for the 15-25 age group!:")
 elif(group == "25-35"):
@@ -45,7 +45,7 @@ else:
 
 
 
-service = input("\n Please enter which Streaming Service results you would like: ")
+service = input("\n Please enter which Streaming Service results you would like:\n")
 if(service =="Netflix"):
     print("This is the percentage of people that uses Netflix:")
 elif(service =="Disney+"):
@@ -64,7 +64,7 @@ else:
 
 
 
-customer = input("\n would you like the 'library content' results or the 'original content' results: ")
+customer = input("\n would you like the 'library content' results or the 'original content' results:\n")
 if(customer =="library"):
     print("The library results are as follows:")
 elif(customer == "original"):
